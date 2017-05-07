@@ -11,7 +11,8 @@ Recently we learned how to make drawings with Python, see https://github.com/Lek
 ## Exercise: soccer player ##
 Can you make this soccer player?
 
-[![Soccer player](https://github.com/LekkerPrutsen/Draw-with-Python/blob/master/images/Soccer_player.png)]
+[!["Soccer player"](https://github.com/LekkerPrutsen/Draw-with-Python/blob/master/images/Soccer_player.png)]
 
 
 ## Result ##
+[!["JavaScript vs Python"](https://github.com/LekkerPrutsen/Draw-with-JavaScript-canvas/blob/master/images/Soccer_Player_JavaScript_vs_Python.png)]
