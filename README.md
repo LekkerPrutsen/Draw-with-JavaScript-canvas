@@ -1,0 +1,17 @@
+# Draw-with-JavaScript-canvas
+
+## Goal: ##
+Learn how to make drawings with JavaScript canvas.. 
+
+
+## What we did ##
+Recently we learned how to make drawings with Python, see https://github.com/LekkerPrutsen/Draw-with-Python. Now we want to learn the same with JavaScript
+
+
+## Exercise: soccer player ##
+Can you make this soccer player?
+
+[![Soccer player](https://github.com/LekkerPrutsen/Draw-with-Python/blob/master/images/Soccer_player.png)]
+
+
+## Result ##
