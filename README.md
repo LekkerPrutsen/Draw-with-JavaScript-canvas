@@ -19,4 +19,4 @@ File: JavaScript Canvas Soccer Player 001.html
 [!["JavaScript vs Python"](https://github.com/LekkerPrutsen/Draw-with-JavaScript-canvas/blob/master/images/Soccer_Player_JavaScript_vs_Python.png)]
 
 ## Exercise 2: soccer player in color **
-[!["Soccer Player in Color"](https://github.com/LekkerPrutsen/Draw-with-JavaScript-canvas/blob/master/images/Soccer_Player_Color.png)]
+[!["Soccer Player in Color"](https://github.com/LekkerPrutsen/Draw-with-JavaScript-canvas/blob/master/images/Soccer_Player_JavaScript_Color.png)]
