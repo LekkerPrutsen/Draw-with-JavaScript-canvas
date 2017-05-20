@@ -20,3 +20,5 @@ File: JavaScript Canvas Soccer Player 001.html
 
 ## Exercise 2: soccer player in color **
 [!["Soccer Player in Color"](https://github.com/LekkerPrutsen/Draw-with-JavaScript-canvas/blob/master/images/Soccer_Player_JavaScript_Color.png)]
+
+File: JavaScript Canvas Soccer Player 002.html
