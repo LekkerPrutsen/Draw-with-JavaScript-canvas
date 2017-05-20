@@ -13,8 +13,10 @@ Can you make this soccer player?
 
 [!["Soccer player"](https://github.com/LekkerPrutsen/Draw-with-Python/blob/master/images/Soccer_player.png)]
 
+File: JavaScript Canvas Soccer Player 001.html
 
 ## Result ##
 [!["JavaScript vs Python"](https://github.com/LekkerPrutsen/Draw-with-JavaScript-canvas/blob/master/images/Soccer_Player_JavaScript_vs_Python.png)]
 
 ## Exercise 2: soccer player in color **
+[!["Soccer Player in Color"](https://github.com/LekkerPrutsen/Draw-with-JavaScript-canvas/blob/master/images/Soccer_Player_Color.png)]
