@@ -1,0 +1,173 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <style type="text/css">
+        canvas {
+            border: #666 1px solid;
+            
+        }
+    </style>
+
+    <meta charset="utf-8" />
+    <title>My first Javascript canvas animation</title>
+    <script type="application/javascript" language="javascript">
+
+    window.onload = function(){
+            var canvas = document.getElementById('canvas');
+                c = canvas.getContext("2d");
+
+            c.strokeStyle = "black";
+            c.lineWidth = 1;
+
+            //Air
+            c.beginPath();
+            c.fillStyle = "#e6ffff";
+            c.fillRect(0,0,800,573);
+            c.fill();
+
+            c.stroke();
+
+
+            //body_player
+            c.beginPath();
+            var shirt = c.createLinearGradient(325, 225, 487, 400);
+            shirt.addColorStop(0,"#0EA2FF");
+            shirt.addColorStop(1,"black");
+            c.moveTo(400, 400);
+            c.lineTo(487, 350);
+            c.lineTo(412, 225);
+            c.lineTo(325,275);
+            c.lineTo(400,400);
+            c.fillStyle = shirt;
+            c.fill();
+            c.stroke();
+
+            //leg left
+            c.beginPath();
+            c.moveTo(422,387);
+            c.lineTo(408,466);
+            c.lineTo(449,523);
+            c.stroke();
+
+            //foot left
+            c.beginPath();
+            c.lineTo(416,546);
+            c.lineTo(433,571);
+            c.lineTo(466,548);
+            c.lineTo(449,523);
+            c.fillStyle = "black";
+            c.fill();
+            c.stroke();
+
+
+            //spikes left
+            c.beginPath();
+            c.moveTo(441,565);
+            c.lineTo(447,573);
+            c.moveTo(449,559);
+            c.lineTo(455,567);
+            c.moveTo(457,553);
+            c.lineTo(463,561);
+            c.stroke();
+
+            //leg right
+            c.beginPath();
+            c.moveTo(465,362);
+            c.lineTo(443,439);
+            c.lineTo(503,439);
+            c.stroke();
+
+            //foot right
+            c.beginPath();
+            c.lineTo(513,428);
+            c.lineTo(542,456);
+            c.lineTo(522,478);
+            c.lineTo(493,450);
+            c.lineTo(513,428);
+            c.fillStyle = "black";
+            c.fill();
+            c.stroke();
+
+            //spikes right
+            c.moveTo(520,435);
+            c.lineTo(525,430);
+            c.moveTo(527,442);
+            c.lineTo(532,437);
+            c.moveTo(534,449);
+            c.lineTo(539,444);
+            c.stroke();
+
+            //ball
+            c.beginPath();
+            c.moveTo(604,410);
+            c.arc(574, 410, 30, 0, Math.PI *2, false);
+            c.fillStyle = "#FFA522";
+            c.fill();
+            c.stroke();
+
+            //arm right
+            c.beginPath();
+            c.moveTo(412,225);
+            c.lineTo(487,218);
+            c.lineTo(496,318);
+            c.stroke();
+
+            //hand right
+            c.beginPath();
+            c.moveTo(507,328);
+            c.arc(497, 328, 10, 0, Math.PI * 2, false);
+            c.fillStyle = "#FFE7CB";
+            c.fill();
+            c.stroke();
+
+
+            //head
+            c.beginPath()
+            c.moveTo(377,211);
+            c.arc(342, 211, 35, 0, Math.PI * 2, false);
+            c.fillStyle = "#FFE7CB";
+            c.fill();
+
+            c.stroke()
+
+            //Eyes
+            c.beginPath();
+            c.moveTo(345,202);
+            c.arc(341, 202, 5, 0, Math.PI * 2, false);
+            c.moveTo(363,192);
+            c.arc(358, 192, 5, 0, Math.PI * 2, false);
+            c.fillStyle = "black";
+            c.fill();
+
+            c.stroke()
+
+            //arm left
+            c.beginPath();
+            c.moveTo(325, 275);
+            c.lineTo(288,340);
+            c.lineTo(281,420);
+            c.stroke();
+
+            //hand left
+            c.beginPath();
+            c.moveTo(291,430);
+            c.arc(281, 430, 10, 0, Math.PI * 2, false);
+            c.fillStyle = "#FFE7CB";
+            c.fill();
+            c.stroke();
+
+            //field
+            c.beginPath();
+            c.fillStyle = "#00b33c";
+            c.fillRect(0,573,800,227);
+
+            c.stroke();
+
+    };
+    </script>
+</head>
+<body>
+    <canvas id="canvas" width="800" height="800"></canvas>
+</body>
+</html>
